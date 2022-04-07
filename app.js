@@ -32,7 +32,7 @@ function compareNumbers() {
     let e = document.getElementById("counter")
 
     if (x != y) {
-        d.innerHTML = "Numbers are not equal. Computer got " + y + ", & user got " + x;
+        d.innerHTML = "Numbers are not equal. Computer got " + y + ", & User got " + x;
         d.style.backgroundColor = "#782222";
         d.style.color = "white";
         d.style.padding = "15px";
@@ -45,7 +45,7 @@ function compareNumbers() {
         e.style.textAlign = "center";
         document.querySelector("body").style.backgroundColor ="#191919"
     } else if (x == y) {
-        d.innerHTML = "Numbers are equal. Computer got " + y + ", & user got " + x;
+        d.innerHTML = "Numbers are equal. Computer got " + y + ", & User got " + x;
         d.style.backgroundColor = "#255417";
         d.style.color = "white";
         d.style.padding = "15px";
